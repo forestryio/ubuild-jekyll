@@ -17,7 +17,12 @@
 @import "imports/block-three-column-1.css";
 @import "imports/block-cta-bar.css";
 @import "imports/block-footer-1.css";
+@import "imports/block-footer-2.css";
 @import "imports/block-text-1.css";
+@import "imports/block-feature-1.css";
+@import "imports/block-feature-2.css";
+@import "imports/block-media-1.css";
+@import "imports/block-media-2.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Noto Sans", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;

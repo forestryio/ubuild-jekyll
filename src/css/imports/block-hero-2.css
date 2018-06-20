@@ -44,6 +44,7 @@
 }
 
 @media screen and (min-width: 700px) {
+  
   .block-hero-2 .column.text {
     flex: 0 0 45%;
     text-align: left;
@@ -60,4 +61,5 @@
     width: 45vw;
     max-width: 520px;
   }
+
 }

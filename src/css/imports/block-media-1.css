@@ -1,0 +1,10 @@
+.block-media-1 img {
+  max-width: 100%;
+}
+
+.block-media-1 figcaption {
+  font-size: 0.7rem;
+  color: var(--color-black-3);
+  text-align: center;
+  margin-top: 0.5rem;
+}

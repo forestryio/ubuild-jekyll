@@ -17,7 +17,10 @@
 }
 
 .block-cta-bar .text h3 { margin-bottom: 1rem; }
-.block-cta-bar .text p { color: var(--color-white); }
+.block-cta-bar .text p {
+  font-size: 1.25rem;
+  color: var(--color-white);
+}
 
 .block-cta-bar .cta {
   flex: 0 0 100%;
