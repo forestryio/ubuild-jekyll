@@ -1,0 +1,8 @@
+/*
+ Put any CSS resets here, or use a CSS reset: https://cssreset.com/
+ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

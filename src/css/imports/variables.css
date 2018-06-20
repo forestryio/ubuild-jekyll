@@ -1,0 +1,13 @@
+:root {
+  /* Colors */
+  --color-white: #ffffff;
+  --color-white-1: #f7f7f7;
+  --color-white-2: #ebe8e8;
+  --color-white-3: #dddddd;
+  --color-black: #000000;
+  --color-black-1: #2b2b2b;
+  --color-black-2: #333333;
+  --color-black-3: #666666;
+  --color-primary: rgb(255, 203, 60);
+  --color-highlight: rgb(255, 237, 188);
+}

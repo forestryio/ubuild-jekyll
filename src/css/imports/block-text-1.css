@@ -1,0 +1,55 @@
+.block-text-1 .columns {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0rem;
+}
+
+.block-text-1 .column {
+  margin: 0rem;
+}
+
+.block-text-1 .headline {
+  flex: 0 0 100%;
+}
+
+.block-text-1 .headline h3 {
+  margin-bottom: 1rem;
+}
+
+.block-text-1 .text {
+  flex: 0 0 100%;
+}
+
+.block-text-1 .text p {
+  margin: 1rem 0;
+}
+
+.block-text-1 .text p:first-of-type {
+  margin: 0 0 1rem 0;
+}
+
+.block-text-1 .text p:last-of-type {
+  margin: 1rem 0 0 0;
+}
+
+@media screen and (min-width: 700px) {
+  .block-text-1 .columns {
+    margin: -2rem;
+  }
+
+  .block-text-1 .column {
+    margin: 2rem;
+  }
+
+  .block-text-1 .headline {
+    flex: 0 0 calc(35% - 4rem);
+  }
+  
+  .block-text-1 .text {
+    flex: 0 0 calc(65% - 4rem);
+  }
+
+  .block-text-1 .headline h3 {
+    margin-bottom: 0;
+  }
+}

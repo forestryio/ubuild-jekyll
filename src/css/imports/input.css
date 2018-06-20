@@ -1,0 +1,23 @@
+input {
+  border: none;
+  border-bottom: 1px solid var(--color-black);
+  font-size: 1rem;
+  padding: 0.8rem;
+  background: none;
+  color: var(--color-black);
+}
+
+input::placeholder {
+  color: var(--color-black-3);
+}
+
+input.inverted {
+  border-bottom: 1px solid var(--color-white);
+  color: var(--color-black);
+  background: var(--color-white);
+  border-radius: 0.3rem;
+}
+
+input.inverted::placeholder {
+  color: var(--color-white-3);
+}

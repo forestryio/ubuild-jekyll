@@ -1,0 +1,15 @@
+.block-one-column-1 .columns {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -2rem;
+}
+
+.block-one-column-1 .column {
+  flex: 0 0 calc(100% - 4rem);
+  margin: 2rem;
+  text-align: center;
+}
+
+.block-one-column-1 .column h3 {
+  margin-bottom: 1rem;
+}

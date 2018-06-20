@@ -1,0 +1,38 @@
+.block-header-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.block-header-1--logo img {
+  max-height: 1.5rem;
+}
+
+.block-header-1 .nav-item {
+  display: inline-block;
+  list-style: none;
+  margin-right: 1rem;
+  font-size: 0.85rem;
+}
+
+.block-header-1 .nav-item.active a {
+  color: var(--color-primary);
+}
+
+.block-header-1 .nav-item a {
+  text-decoration: none;
+  color: var(--color-black-1);
+}
+
+.block-header-1 .nav-item a:hover {
+  color: var(--color-black-3);
+}
+
+.block-header-1 .nav-item.active a:hover {
+  color: var(--color-primary);
+}
+
+.block-header-1 .nav-item:last-of-type {
+  margin: 0;
+}
