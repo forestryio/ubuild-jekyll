@@ -6,8 +6,31 @@ date: 2017-11-23 00:00:00 +0000
 page_sections:
 - template: header-1
   block: header-1
+  logo: "/uploads/2018/06/21/forestry-full.svg"
+  navigation:
+  - link: "/"
+    link_text: Home
+  - link_text: Features
+    link: "#"
+  - link: "#"
+    link_text: Pricing
+  - link: "#"
+    link_text: Team
 - template: header-2
   block: header-2
+  logo: "/uploads/2018/06/21/forestry-full.svg"
+  navigation:
+  - link: "/"
+    link_text: Home
+  - link: "#"
+    link_text: Features
+  - link: "#"
+    link_text: Pricing
+  - link: "#"
+    link_text: Team
+  cta:
+    url: "#"
+    button_text: Download
 - template: header-3
   block: header-3
 - template: hero-1
