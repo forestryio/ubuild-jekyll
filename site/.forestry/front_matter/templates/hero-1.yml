@@ -1,0 +1,11 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: textarea
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+  label: Headline
+  name: heading
