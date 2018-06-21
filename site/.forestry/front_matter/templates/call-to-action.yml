@@ -2,9 +2,13 @@
 hide_body: false
 is_partial: true
 fields:
-- type: text
-  name: link
-  label: Link
-- type: text
-  name: button_text
-  label: Button Text
+- type: field_group
+  label: Call-to-action
+  name: cta
+  fields:
+  - type: text
+    name: url
+    label: URL
+  - type: text
+    name: button_text
+    label: Button Text
