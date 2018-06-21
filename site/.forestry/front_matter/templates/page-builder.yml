@@ -27,3 +27,6 @@ fields:
   - 1-column-text
   - 2-column-text
   - 3-column-text
+- type: datetime
+  name: date
+  label: Date
