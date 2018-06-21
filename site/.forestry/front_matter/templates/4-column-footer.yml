@@ -1,0 +1,33 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: footer-2
+- type: file
+  label: Column 1 Image
+  name: image
+- type: textarea
+  name: col_2
+  label: Column 2 Content
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: textarea
+  name: col_3
+  label: Column 3 Content
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: textarea
+  name: col_4
+  label: Column 4 Content
+  config:
+    wysiwyg: true
+    schema:
+      format: html
