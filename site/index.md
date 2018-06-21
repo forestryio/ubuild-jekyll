@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: blocks
 title: Homepage
-block: header-1.html
 date: 2017-11-23 00:00:00 +0000
 page_sections:
 - template: header-1
@@ -78,7 +77,7 @@ page_sections:
     image: "/uploads/2018/06/21/product-shot-1.png"
     alt_text: Product Shot
 - template: 1-column-text
-  block: onecolumn-1
+  block: one-column-1
   headline: Column 1
   content: Danish gummi bears donut dessert apple pie halvah pudding cupcake. Soufflé
     cake wafer tiramisu cake. Jujubes cheesecake cotton candy.
@@ -87,7 +86,7 @@ page_sections:
   image: "/uploads/2018/06/21/drone-photo.jpeg"
   caption: Some cool content
 - template: 2-column-text
-  block: 2column-1
+  block: two-column-1
   col_1:
     headline: Column 1
     content: Danish gummi bears donut dessert apple pie halvah pudding cupcake. Soufflé
@@ -104,7 +103,7 @@ page_sections:
     image: "/uploads/2018/06/21/drone-photo.jpeg"
     caption: Captions are optional.
 - template: 3-column-text
-  block: 3colunn-1
+  block: three-column-1
   col_1:
     headline: Column 1
     content: Danish gummi bears donut dessert apple pie halvah pudding cupcake. Soufflé
@@ -124,18 +123,4 @@ page_sections:
   email_recipient: test@example.com
 ---
 
-{% include block-{{ page.block }} %}
-{% include block-header-2.html %}
-{% include block-header-3.html %}
-{% include block-hero-2.html %}
-{% include block-text-1.html %}
-{% include block-feature-1.html %}
-{% include block-feature-2.html %}
-{% include block-one-column-1.html %}
-{% include block-media-1.html %}
-{% include block-two-column-1.html %}
-{% include block-media-2.html %}
-{% include block-three-column-1.html %}
-{% include block-cta-bar.html %}
-{% include block-footer-1.html %}
-{% include block-footer-2.html %}
+foo bar
