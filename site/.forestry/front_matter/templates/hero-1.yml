@@ -2,6 +2,11 @@
 hide_body: false
 is_partial: false
 fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: hero-1
 - type: textarea
   config:
     wysiwyg: true
