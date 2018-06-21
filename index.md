@@ -53,9 +53,10 @@ page_sections:
     alt_text: Customize Blocks
 - template: 1-column-text
   block: one-column-1
-  headline: Column 1
-  content: Danish gummi bears donut dessert apple pie halvah pudding cupcake. Soufflé
-    cake wafer tiramisu cake. Jujubes cheesecake cotton candy.
+  headline: 16 Fully Responsive Design Blocks
+  content: "The Design Blocks can be used without Forestry but to harness the power
+    of Blocks we recommend using Forestry. Once the site is imported you can immediately
+    create new sites and make them fully customizable. \U0001F447"
 - template: full-width-media-element
   block: media-1
   image: "/uploads/2018/06/21/drone-photo.jpeg"
