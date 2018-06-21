@@ -70,11 +70,6 @@ page_sections:
     Add and customize the available Blocks and preview them as you go along.</p><p>4.
     Create your own Blocks and contribute to the project.</p>"
   headline: Steps to Build a Site!
-- template: signup-bar
-  block: cta-bar
-  content: Sign up to our amazing newsletter, we write about cool new features, industry
-    updates and much more!
-  email_recipient: test@example.com
 - template: simple-footer
   block: footer-1
   content: Hello world! ❤︎
