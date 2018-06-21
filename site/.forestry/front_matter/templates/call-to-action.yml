@@ -1,0 +1,10 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: link
+  label: Link
+- type: text
+  name: button_text
+  label: Button Text
