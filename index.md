@@ -31,31 +31,22 @@ page_sections:
     image: "/uploads/2018/06/21/product-shot-1.png"
     alt_text: Product Shot
   background_image: "/uploads/2018/06/21/hero-2-bg.png"
-- template: detail-content
-  block: text-1
-  headline: Headline
-  content: "<p>Oat cake icing jujubes candy canes sweet powder cake bear claw cotton
-    candy. Liquorice candy soufflé liquorice gummi bears gummi bears. Danish liquorice
-    macaroon sesame snaps tootsie roll wafer.</p><p>Macaroon sugar plum dragée. Pie
-    pie bear claw ice cream. Jelly-o lollipop bear claw jelly beans brownie gummi
-    bears dessert toffee. Sweet roll chupa chups lemon drops dessert jelly.</p><p>Tiramisu
-    jujubes jelly-o. Apple pie jelly beans cake pie lollipop croissant apple pie sugar
-    plum jelly beans. Pudding pastry carrot cake topping cookie wafer.</p>"
+- template: content-feature
+  block: feature-1
+  media_alignment: Left
+  headline: <strong>Swap &amp; Switch<span class="light">&nbsp;</span></strong><span
+    class="light">the Blocks to create sites quickly</span>
+  content: Quickly assemble and create custom sites with 16 design blocks for six
+    different sections.
+  media:
+    image: "/uploads/2018/06/21/blocks-split.png"
+    alt_text: uBuild Blocks Mock-Up
 - template: content-feature
   block: feature-1
   media_alignment: Right
   headline: "<strong>Great feature</strong> that you should check out."
   content: Some nice text to back it up, and explain some stuff. And it looks super
     good.
-  media:
-    image: "/uploads/2018/06/21/product-shot-1.png"
-    alt_text: Product Shot
-- template: content-feature
-  block: feature-1
-  media_alignment: Left
-  headline: "<strong>Another one</strong> that you should def check out."
-  content: We don't know what this feature is yet, but we're pretty sure you'll love
-    it!
   media:
     image: "/uploads/2018/06/21/product-shot-1.png"
     alt_text: Product Shot
