@@ -1,0 +1,15 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: 2column-1
+- type: field_group
+  name: col_1
+  label: Column 1
+- type: field_group
+  name: col_2
+  label: Column 2
