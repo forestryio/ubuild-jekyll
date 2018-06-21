@@ -1,0 +1,7 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: file
+  label: Logo
+  name: logo
