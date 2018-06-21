@@ -10,6 +10,9 @@ fields:
   label: Layout
   hidden: true
   default: blocks
+- type: datetime
+  name: date
+  label: Date
 - type: blocks
   name: page_sections
   label: Page Sections
@@ -27,6 +30,3 @@ fields:
   - 1-column-text
   - 2-column-text
   - 3-column-text
-- type: datetime
-  name: date
-  label: Date
