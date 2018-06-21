@@ -33,8 +33,10 @@ page_sections:
     button_text: Download
 - template: header-3
   block: header-3
+  logo: "/uploads/2018/06/21/forestry-full.svg"
 - template: hero-1
   block: hero-1
+  heading: Forestry <strong>design blocks.</strong>
 - template: hero-2
   block: hero-2
 - template: text-1
