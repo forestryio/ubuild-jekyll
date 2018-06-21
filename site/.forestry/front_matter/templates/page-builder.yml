@@ -1,0 +1,29 @@
+---
+hide_body: true
+is_partial: false
+fields:
+- type: text
+  label: Title
+  name: title
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: blocks
+- type: blocks
+  name: page_sections
+  label: Page Sections
+  template_types:
+  - header-1
+  - header-2
+  - header-3
+  - hero-1
+  - hero-2
+  - text-1
+  - media-feature
+  - media
+  - 2-column-media-element
+  - signup-bar
+  - 1-column-text
+  - 2-column-text
+  - 3-column-text
