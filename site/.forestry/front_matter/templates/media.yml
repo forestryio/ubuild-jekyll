@@ -1,0 +1,15 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: media-1
+- type: file
+  name: image
+  label: Image
+- type: text
+  name: caption
+  label: Caption
