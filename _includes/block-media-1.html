@@ -1,7 +1,7 @@
 <section class="block block-media-1">
   <div class="container">
     <figure>
-      <img src="{{ section.image }}" alt="{{ section.caption }}">
+      <img src="{{ section.image | relative_url }}" alt="{{ section.caption }}">
       {% if section.caption %}
       <figcaption>{{ section.caption }}</figcaption>
       {% endif %}
