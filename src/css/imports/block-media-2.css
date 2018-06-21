@@ -1,12 +1,12 @@
 .block-media-2 .columns {
   display: flex;
   flex-wrap: wrap;
-  margin: -2rem;
+  margin: -1rem;
 }
 
 .block-media-2 .column {
-  flex: 0 0 100%;
-  margin: 2rem;
+  flex: 0 0 calc(100% - 2rem);
+  margin: 1rem;
 }
 
 .block-media-2 .column img {
@@ -21,6 +21,9 @@
 }
 
 @media screen and (min-width: 700px) {
+  .block-media-2 .columns {
+    margin: -2rem;
+  }
   .block-media-2 .column {
     flex: 0 0 calc(50% - 4rem);
     margin: 2rem;
