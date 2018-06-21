@@ -1,0 +1,12 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: footer-1
+- type: text
+  name: footer_text
+  label: Footer Text
