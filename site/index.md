@@ -121,6 +121,15 @@ page_sections:
   content: Sign up to our amazing newsletter, we write about cool new features, industry
     updates and much more!
   email_recipient: test@example.com
+- template: simple-footer
+  block: footer-1
+  content: Hello world! ❤︎
+- template: 4-column-footer
+  block: footer-2
+  image: "/uploads/2018/06/21/forestry-symbol.svg"
+  col_2: Second column
+  col_3: Third column
+  col_4: Fourth column
 ---
 
 foo bar
