@@ -3,6 +3,37 @@ layout: default
 title: Homepage
 block: header-1.html
 date: 2017-11-23 00:00:00 +0000
+page_sections:
+- template: header-1
+  block: header-1
+- template: header-2
+  block: header-2
+- template: header-3
+  block: header-3
+- template: hero-1
+  block: hero-1
+- template: hero-2
+  block: hero-2
+- template: text-1
+  block: text-1
+- template: media-feature
+  block: feature-1
+  media_alignment: Right
+- template: media-feature
+  block: feature-1
+  media_alignment: Right
+- template: 1-column-text
+  block: onecolumn-1
+- template: media
+  block: media-1
+- template: 2-column-text
+  block: 2column-1
+- template: 2-column-media-element
+  block: media-2
+- template: 3-column-text
+  block: 3colunn-1
+- template: signup-bar
+  block: cta-bar
 ---
 
 {% include block-{{ page.block }} %}
