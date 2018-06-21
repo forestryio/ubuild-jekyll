@@ -33,4 +33,4 @@ fields:
   - 2-column-text
   - 3-column-text
 pages:
-  - index.md
+- index.md
