@@ -6,7 +6,7 @@ fields:
   hidden: true
   label: block
   name: block
-  default: header-1
+  default: header-2
 - type: file
   name: logo
   label: Logo
@@ -22,3 +22,13 @@ fields:
     label: Link text
   config:
     labelField: link_text
+- type: field_group
+  name: cta
+  label: Call-to-action
+  fields:
+  - type: text
+    name: url
+    label: URL
+  - type: text
+    name: button_text
+    label: Button Text
