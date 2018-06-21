@@ -7,6 +7,10 @@ fields:
   label: block
   name: block
   default: footer-1
-- type: text
-  name: footer_text
+- type: textarea
   label: Footer Text
+  name: content
+  config:
+    wysiwyg: true
+    schema:
+      format: html
