@@ -1,0 +1,29 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: media-2
+- type: field_group
+  name: image_1
+  label: " First Image"
+  fields:
+  - type: file
+    name: image
+    label: image
+  - type: text
+    name: caption
+    label: Caption
+- type: field_group
+  name: image_2
+  label: Second Image
+  fields:
+  - type: file
+    name: image
+    label: Image
+  - type: text
+    name: caption
+    label: Caption
