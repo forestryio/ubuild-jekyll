@@ -1,13 +1,18 @@
-<section class="block block-hero-2" style="background-image: url('/img/hero-2-bg.png')">
+<section class="block block-hero-2" 
+{% if section.background_image %}
+style="background-image: url('{{ section.background_image | relative_url }}')"
+{% endif %}>
   <div class="container">
     <div class="columns">
       <div class="column text">
-        <h1><span class="light">Forestry</span><br>design blocks</h1>
-        <p>The tool you need to do this and that<br>and yatta yatta.</p>
-        <button class="button primary inverted">Download for macOS</button>
+        <h1><span class="light">{{ section.headline }}</span></h1>
+        <p>{{ section.content }}</p>
+        {% if section.cta && section.cta.enabled == true %}
+        <a class="button primary inverted" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
+        {% endif %}
       </div>
       <div class="column media">
-        <img src="/img/product-shot-1.png" alt="Product shot">
+        <img src="{{ section.image.image | relative_url }}" alt="{{ section.image.alt_text }}">
       </div>
     </div>
   </div>
