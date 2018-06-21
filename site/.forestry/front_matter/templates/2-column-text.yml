@@ -18,3 +18,8 @@ fields:
 - type: field_group
   name: col_2
   label: Column 2
+  fields:
+  - type: include
+    name: column
+    label: Column
+    template: text-column
