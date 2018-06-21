@@ -3,7 +3,7 @@ layout: blocks
 title: Homepage
 date: 2017-11-23 00:00:00 +0000
 page_sections:
-- template: header-1
+- template: navigation-header
   block: header-1
   logo: "/uploads/2018/06/21/forestry-full.svg"
   navigation:
@@ -15,7 +15,7 @@ page_sections:
     link_text: Pricing
   - link: "#"
     link_text: Team
-- template: header-2
+- template: navigation-header-w-button
   block: header-2
   logo: "/uploads/2018/06/21/forestry-full.svg"
   navigation:
@@ -30,13 +30,13 @@ page_sections:
   cta:
     url: "#"
     button_text: Download
-- template: header-3
+- template: simple-header
   block: header-3
   logo: "/uploads/2018/06/21/forestry-full.svg"
-- template: hero-1
+- template: text-only-hero-banner
   block: hero-1
   heading: Forestry <strong>design blocks.</strong>
-- template: hero-2
+- template: hero-banner-w-image
   block: hero-2
   headline: Forestry <strong>design blocks</strong>
   content: The tool you need to do this and that and yatta yatta.
@@ -48,7 +48,7 @@ page_sections:
     image: "/uploads/2018/06/21/product-shot-1.png"
     alt_text: Product Shot
   background_image: "/uploads/2018/06/21/hero-2-bg.png"
-- template: text-1
+- template: detail-content
   block: text-1
   headline: Headline
   content: "<p>Oat cake icing jujubes candy canes sweet powder cake bear claw cotton
@@ -58,7 +58,7 @@ page_sections:
     bears dessert toffee. Sweet roll chupa chups lemon drops dessert jelly.</p><p>Tiramisu
     jujubes jelly-o. Apple pie jelly beans cake pie lollipop croissant apple pie sugar
     plum jelly beans. Pudding pastry carrot cake topping cookie wafer.</p>"
-- template: media-feature
+- template: content-feature
   block: feature-1
   media_alignment: Right
   headline: "<strong>Great feature</strong> that you should check out."
@@ -67,7 +67,7 @@ page_sections:
   media:
     image: "/uploads/2018/06/21/product-shot-1.png"
     alt_text: Product Shot
-- template: media-feature
+- template: content-feature
   block: feature-1
   media_alignment: Left
   headline: "<strong>Another one</strong> that you should def check out."
@@ -81,7 +81,7 @@ page_sections:
   headline: Column 1
   content: Danish gummi bears donut dessert apple pie halvah pudding cupcake. Soufflé
     cake wafer tiramisu cake. Jujubes cheesecake cotton candy.
-- template: media
+- template: full-width-media-element
   block: media-1
   image: "/uploads/2018/06/21/drone-photo.jpeg"
   caption: Some cool content
