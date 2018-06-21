@@ -7,13 +7,7 @@ fields:
   label: block
   name: block
   default: onecolumn-1
-- type: text
-  name: headline
-  label: Headline
-- type: textarea
-  name: content
-  label: Content
-  config:
-    wysiwyg: true
-    schema:
-      format: html
+- type: include
+  name: column
+  label: Column
+  template: text-column
