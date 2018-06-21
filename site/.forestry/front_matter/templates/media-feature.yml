@@ -1,0 +1,43 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: feature-1
+- type: textarea
+  name: headline
+  label: Headline
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: textarea
+  name: content
+  label: Content
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: field_group
+  name: media
+  label: Featured Media
+  fields:
+  - type: file
+    name: image
+    label: Image
+  - type: text
+    name: alt_text
+    label: Alt text
+- type: select
+  name: media_alignment
+  config:
+    source:
+      type: simple
+    options:
+    - Left
+    - Right
+  label: Media Alignment
+  default: Right
