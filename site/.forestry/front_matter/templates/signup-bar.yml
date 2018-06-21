@@ -1,0 +1,19 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  label: block
+  name: block
+  default: cta-bar
+- type: textarea
+  name: content
+  label: Content
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- type: text
+  name: email_recipient
+  label: Email Recipient
+  description: Form submissions will be sent to this email address.
