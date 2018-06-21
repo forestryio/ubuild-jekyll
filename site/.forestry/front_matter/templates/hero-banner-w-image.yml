@@ -10,6 +10,16 @@ fields:
 - type: file
   name: background_image
   label: Background Image
+- type: field_group
+  name: image
+  label: Image
+  fields:
+  - type: file
+    name: image
+    label: Image
+  - type: text
+    name: alt_text
+    label: Alt Text
 - type: textarea
   name: headline
   label: Headline
