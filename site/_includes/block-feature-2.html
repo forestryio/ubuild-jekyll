@@ -2,11 +2,11 @@
   <div class="container">
     <div class="columns">
       <div class="column media">
-        <img src="/img/product-shot-1.png" alt="Product shot">
+          <img src="{{ section.media.image | relative_url }}" alt="{{ section.media.alt_text }}">
       </div>
       <div class="column text">
-        <h2>Another one <span class="light">that you should def check out.</span></h2>
-        <p>We don't know what this feature is yet, but we're pretty sure you'll love it!</p>
+          <h2><span class="light">{{ section.headline }}</span></h2>
+          <p>{{ section.content }}</p>
       </div>  
     </div>
   </div>

@@ -2,11 +2,13 @@
   <div class="container">
     <div class="columns">
         <div class="text">
-          <p>Sign up to our amazing newsletter, we write about cool new features, industry updates and much more!</p>
+          <p>{{ section.content }}</p>
         </div>
         <div class="cta">
-          <input type="email" placeholder="your@email.com" class="inverted">
-          <button class="button primary inverted">Sign up</button>
+          <form action="https://formspree.io/{{ section.email_recipient }}" method="POST">
+            <input type="email" placeholder="your@email.com" class="inverted">
+            <button type="submit" class="button primary inverted">Sign up</button>
+          </form>
         </div>
     </div>
   </div>

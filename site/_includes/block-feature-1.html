@@ -1,13 +1,17 @@
+{% if section.media_alignment and section.media_alignment == "Left" %}
+{% include block-feature-2.html %}
+{% else %}
 <section class="block block-feature-1">
   <div class="container">
     <div class="columns">
       <div class="column text">
-        <h2>Great feature <span class="light">that you should check out.</span></h2>
-        <p>Some nice text to back it up, and explain some stuff. And it looks super good.</p>
+        <h2><span class="light">{{ section.headline }}</span></h2>
+        <p>{{ section.content }}</p>
       </div>
       <div class="column media">
-        <img src="/img/product-shot-1.png" alt="Product shot">
+        <img src="{{ section.media.image | relative_url }}" alt="{{ section.media.alt_text }}">
       </div>
     </div>      
   </div>
 </section>
+{% endif %}
