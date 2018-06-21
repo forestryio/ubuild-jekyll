@@ -7,6 +7,15 @@ h1 {
 
 h1 span.light { font-weight: 300; }
 
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 span.light {
+  font-weight: 300;
+}
+
 h3 {
   font-size: 1rem;
   font-weight: bold;
@@ -15,7 +24,7 @@ h3 {
 }
 
 p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: normal;
   color: var(--color-black-3);
   line-height: 1.35;
