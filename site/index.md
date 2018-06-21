@@ -1,8 +1,11 @@
 ---
 layout: default
 title: Homepage
+block: header-1.html
+date: 2017-11-23 00:00:00 +0000
 ---
-{% include block-header-1.html %}
+
+{% include block-{{ page.block }} %}
 {% include block-header-2.html %}
 {% include block-header-3.html %}
 {% include block-hero-2.html %}
