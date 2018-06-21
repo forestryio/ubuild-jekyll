@@ -1,0 +1,24 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: header-1
+- type: file
+  name: logo
+  label: Logo
+- type: field_group_list
+  name: navigation
+  label: Navigation
+  fields:
+  - type: text
+    name: link
+    label: link
+  - type: text
+    name: link_text
+    label: Link text
+  config:
+    labelField: link_text
