@@ -17,6 +17,8 @@ fields:
   name: page_sections
   label: Page Sections
   template_types:
+  - 4-column-footer
+  - simple-footer
   - header-1
   - header-2
   - header-3
