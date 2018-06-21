@@ -39,6 +39,16 @@ page_sections:
   heading: Forestry <strong>design blocks.</strong>
 - template: hero-2
   block: hero-2
+  headline: Forestry <strong>design blocks</strong>
+  content: The tool you need to do this and that and yatta yatta.
+  cta:
+    enabled: true
+    url: "#"
+    button_text: Download for macOS
+  image:
+    image: "/uploads/2018/06/21/product-shot-1.png"
+    alt_text: Product Shot
+  background_image: "/uploads/2018/06/21/hero-2-bg.png"
 - template: text-1
   block: text-1
 - template: media-feature
