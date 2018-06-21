@@ -6,7 +6,7 @@ fields:
   hidden: true
   label: block
   name: block
-  default: 3colunn-1
+  default: three-column-1
 - type: field_group
   name: col_1
   label: Column 1
