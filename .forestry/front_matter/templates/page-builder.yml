@@ -32,5 +32,3 @@ fields:
   - 1-column-text
   - 2-column-text
   - 3-column-text
-pages:
-- site/index.md
