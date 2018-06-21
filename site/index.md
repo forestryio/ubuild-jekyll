@@ -79,16 +79,49 @@ page_sections:
     alt_text: Product Shot
 - template: 1-column-text
   block: onecolumn-1
+  headline: Column 1
+  content: Danish gummi bears donut dessert apple pie halvah pudding cupcake. Soufflé
+    cake wafer tiramisu cake. Jujubes cheesecake cotton candy.
 - template: media
   block: media-1
+  image: "/uploads/2018/06/21/drone-photo.jpeg"
+  caption: Some cool content
 - template: 2-column-text
   block: 2column-1
+  col_1:
+    headline: Column 1
+    content: Danish gummi bears donut dessert apple pie halvah pudding cupcake. Soufflé
+      cake wafer tiramisu cake. Jujubes cheesecake cotton candy.
+  col_2:
+    headline: Column 2
+    content: Apple pie danish chupa chups liquorice cookie cookie. Pudding donut sesame
+      snaps chupa chups toffee. Pudding toffee candy toffee cake.
 - template: 2-column-media-element
   block: media-2
+  image_1:
+    image: "/uploads/2018/06/21/drone-photo.jpeg"
+  image_2:
+    image: "/uploads/2018/06/21/drone-photo.jpeg"
+    caption: Captions are optional.
 - template: 3-column-text
   block: 3colunn-1
+  col_1:
+    headline: Column 1
+    content: Danish gummi bears donut dessert apple pie halvah pudding cupcake. Soufflé
+      cake wafer tiramisu cake. Jujubes cheesecake cotton candy.
+  col_2:
+    headline: Column 2
+    content: Apple pie danish chupa chups liquorice cookie cookie. Pudding donut sesame
+      snaps chupa chups toffee. Pudding toffee candy toffee cake.
+  col_3:
+    headline: Column 3
+    content: Macaroon chocolate bar cupcake dessert cake. Jelly-o liquorice dessert
+      jelly gummies halvah. Fruitcake fruitcake carrot cake caramels.
 - template: signup-bar
   block: cta-bar
+  content: Sign up to our amazing newsletter, we write about cool new features, industry
+    updates and much more!
+  email_recipient: test@example.com
 ---
 
 {% include block-{{ page.block }} %}
