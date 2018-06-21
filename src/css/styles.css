@@ -10,6 +10,8 @@
 
 /* Blocks */
 @import "imports/block-header-1.css";
+@import "imports/block-header-2.css";
+@import "imports/block-header-3.css";
 @import "imports/block-hero-1.css";
 @import "imports/block-hero-2.css";
 @import "imports/block-one-column-1.css";

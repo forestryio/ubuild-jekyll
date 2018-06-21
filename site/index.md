@@ -3,6 +3,8 @@ layout: default
 title: Homepage
 ---
 {% include block-header-1.html %}
+{% include block-header-2.html %}
+{% include block-header-3.html %}
 {% include block-hero-2.html %}
 {% include block-text-1.html %}
 {% include block-feature-1.html %}

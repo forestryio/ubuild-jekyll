@@ -1,0 +1,11 @@
+.block-header-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--color-white);
+}
+
+.block-header-3--logo img {
+  max-height: 1.5rem;
+}
