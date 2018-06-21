@@ -2,6 +2,11 @@
 hide_body: false
 is_partial: true
 fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: header-3
 - type: file
   label: Logo
   name: logo
