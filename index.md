@@ -59,39 +59,17 @@ page_sections:
     create new sites and make them fully customizable. \U0001F447"
 - template: full-width-media-element
   block: media-1
-  image: "/uploads/2018/06/21/drone-photo.jpeg"
-  caption: Some cool content
-- template: 2-column-text
-  block: two-column-1
-  col_1:
-    headline: Column 1
-    content: Danish gummi bears donut dessert apple pie halvah pudding cupcake. Soufflé
-      cake wafer tiramisu cake. Jujubes cheesecake cotton candy.
-  col_2:
-    headline: Column 2
-    content: Apple pie danish chupa chups liquorice cookie cookie. Pudding donut sesame
-      snaps chupa chups toffee. Pudding toffee candy toffee cake.
-- template: 2-column-media-element
-  block: media-2
-  image_1:
-    image: "/uploads/2018/06/21/drone-photo.jpeg"
-  image_2:
-    image: "/uploads/2018/06/21/drone-photo.jpeg"
-    caption: Captions are optional.
-- template: 3-column-text
-  block: three-column-1
-  col_1:
-    headline: Column 1
-    content: Danish gummi bears donut dessert apple pie halvah pudding cupcake. Soufflé
-      cake wafer tiramisu cake. Jujubes cheesecake cotton candy.
-  col_2:
-    headline: Column 2
-    content: Apple pie danish chupa chups liquorice cookie cookie. Pudding donut sesame
-      snaps chupa chups toffee. Pudding toffee candy toffee cake.
-  col_3:
-    headline: Column 3
-    content: Macaroon chocolate bar cupcake dessert cake. Jelly-o liquorice dessert
-      jelly gummies halvah. Fruitcake fruitcake carrot cake caramels.
+  image: "/uploads/2018/06/21/theme.png"
+  caption: All Available Blocks
+- template: text-1
+  block: text-1
+  content: "<p>uBuild is an open-source Jekyll based theme that doubles as a builder
+    tool inside the Forestry content manager. It's easy to get started!</p><p>1. Fork
+    the repo and import the site into Forestry (or use our magic button).</p><p>2.
+    Add a new page to your pages directory in Forestry and select the **** template.</p><p>3.
+    Add and customize the available Blocks and preview them as you go along.</p><p>4.
+    Create your own Blocks and contribute to the project.</p>"
+  headline: Steps to Build a Site!
 - template: signup-bar
   block: cta-bar
   content: Sign up to our amazing newsletter, we write about cool new features, industry
@@ -100,12 +78,6 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: Hello world! ❤︎
-- template: 4-column-footer
-  block: footer-2
-  image: "/uploads/2018/06/21/forestry-symbol.svg"
-  col_2: Second column
-  col_3: Third column
-  col_4: Fourth column
 ---
 
 foo bar
