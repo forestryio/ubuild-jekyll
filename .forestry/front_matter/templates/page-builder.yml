@@ -17,21 +17,21 @@ fields:
   name: page_sections
   label: Page Sections
   template_types:
-  - 4-column-footer
-  - simple-footer
-  - header-1
-  - header-2
-  - header-3
-  - hero-1
-  - hero-2
-  - text-1
-  - media-feature
-  - media
-  - 2-column-media-element
-  - signup-bar
+  - navigation-header
+  - navigation-header-w-button
+  - simple-header
+  - hero-banner-w-image
+  - content-feature
+  - detail-content
   - 1-column-text
   - 2-column-text
   - 3-column-text
+  - full-width-media-element
+  - 2-column-media-element
+  - signup-bar
+  - simple-footer
+  - 4-column-footer
 pages:
-- simple.md
+- test.md
 - index.md
+- simple.md
