@@ -67,10 +67,10 @@ page_sections:
   content: <p>uBuild is an open-source Jekyll based theme that doubles as a builder
     tool inside the Forestry content manager. It's easy to get started!</p><ol><li><p>Fork
     the <a href="https://github.com/forestryio/ubuild-jekyll">repo</a> and import
-    the site into <a href="https://forestry.io/">Forestry</a> (or use <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks.md">our
+    the site into <a href="https://forestry.io/">Forestry</a> (or use <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks/">our
     magic button</a>).</p></li><li><p>Click on 'Add New' in Forestry and select the
     Page-Builder template.</p></li><li><p>Add and customize the available Blocks and
-    preview them as you go along.</p></li><li><p>Read <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks.md">our
+    preview them as you go along.</p></li><li><p>Read <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks/">our
     article</a> and create your own Blocks.</p></li></ol>
 - template: simple-footer
   block: footer-1
