@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: FORESTRY-READ.md
+  path: FORESTRY-README.md
   label: Welcome - First Steps
   read_only: true
 - type: jekyll-posts
