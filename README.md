@@ -8,6 +8,10 @@
 
 ## Getting Started
 
+Forestry Quick Start
+
+[![Import this project into Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=forestryio/ubuild-jekyll&provider=github&engine=jekyll)
+
 1. Fork this repo
 2. [Sign up for a free Forestry account](https://app.forestry.io/signup)
 3. [Import your repo](https://forestry.io/docs/quickstart/setup-site/#import-site-from-repo) as a new Jekyll project
