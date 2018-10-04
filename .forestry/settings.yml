@@ -9,7 +9,6 @@ sections:
   label: Welcome
   create: all
   match: "**/*"
-  read_only: true
 - type: jekyll-posts
   label: Posts
   create: all
