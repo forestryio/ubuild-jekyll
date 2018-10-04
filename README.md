@@ -10,6 +10,8 @@
 
 [![Import this project into Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=forestryio/ubuild-jekyll&provider=github&engine=jekyll)
 
+*This option is available for Github and Gitlab users only. If you use Bitbucket please use the Alternative Setup*
+
 ## Alternative Setup
 
 1. Fork this repo
