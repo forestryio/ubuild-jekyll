@@ -8,8 +8,6 @@
 
 ## Quick Start
 
-Get started quickly with the Forestry Quickstart Button. We'll copy this repository into your account and set it up with forestry with just a few clicks.
-
 [![Import this project into Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=forestryio/ubuild-jekyll&provider=github&engine=jekyll)
 
 ## Alternative Setup
