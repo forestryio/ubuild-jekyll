@@ -5,8 +5,9 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: FORESTRY-README.MD
+  path: README.md
   label: Welcome
+  match: "**/*"
 - type: jekyll-posts
   label: Posts
   create: all
