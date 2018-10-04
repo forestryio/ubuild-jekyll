@@ -7,7 +7,6 @@ sections:
 - type: document
   path: README.md
   label: Welcome
-  match: "**/*"
 - type: jekyll-posts
   label: Posts
   create: all
