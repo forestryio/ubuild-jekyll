@@ -7,7 +7,6 @@ sections:
 - type: document
   path: FORESTRY-README.MD
   label: Welcome
-  match: "**/*"
 - type: jekyll-posts
   label: Posts
   create: all
