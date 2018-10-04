@@ -7,7 +7,6 @@ sections:
 - type: document
   path: FORESTRY-README.MD
   label: Welcome - First Steps
-  match: "**/*"
   read_only: true
 - type: jekyll-posts
   label: Posts
