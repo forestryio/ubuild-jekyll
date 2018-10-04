@@ -5,8 +5,8 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: README.md
-  label: Welcome
+  path: FORESTRY.md
+  label: Welcome - First Steps
 - type: jekyll-posts
   label: Posts
   create: all
