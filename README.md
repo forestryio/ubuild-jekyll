@@ -6,11 +6,13 @@
 
 `ubuild-jekyll` is a Jekyll theme designed to work with [Forestry](https://forestry.io/)'s [Blocks](https://forestry.io/blog/blocks-give-your-editors-the-power-to-build-pages/) feature.  This theme provides a set of page-level components and a pre-configured Forestry Blocks UI that will empower content editors to construct their own webpages.
 
-## Getting Started
+## Quick Start
 
-Forestry Quick Start
+Get started quickly with the Forestry Quickstart Button. We'll copy this repository into your account and set it up with forestry with just a few clicks.
 
 [![Import this project into Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=forestryio/ubuild-jekyll&provider=github&engine=jekyll)
+
+## Alternative Setup
 
 1. Fork this repo
 2. [Sign up for a free Forestry account](https://app.forestry.io/signup)
