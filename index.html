@@ -10,8 +10,93 @@
     <meta name="description" content="ubuild-jekyll is a Jekyll theme desgined to work with Forestry's Blocks feature.  This theme provides a set of page-level components and a pre-configured Forestry Blocks UI  that will empower content editors to construct their own webpages.">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/otevet/otevet.github.io@1.0.5/images/ubuild1.css"/>
 
+<script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAfpPifQCZHD9ISaUkoO5M6c8cxnDXpCx4",
+    authDomain: "platform-ai-prod.firebaseapp.com",
+    databaseURL: "https://platform-ai-prod.firebaseio.com",
+    projectId: "platform-ai-prod",
+    storageBucket: "",
+    messagingSenderId: "791956494741"
+  };
+  firebase.initializeApp(config);
+</script>
+  <script>
+	//FirebaseUI config.
+	  var uiConfig = {
+		callbacks: {
+			signInSuccess: function(user, credential, redirectUrl) {
+                user.getIdToken(/* forceRefresh */ true).then(function(idToken_str) {
+                    var form = document.createElement('form');
+                    form.method = 'post';
+                    form.action = '/api/v1/auth/signin';
+                    var uid = document.createElement('input');
+                    var refreshToken = document.createElement('input');
+                    var displayName = document.createElement('input');
+                    var email = document.createElement('input');
+                    var idToken = document.createElement('input');
+                    var accessToken = document.createElement('input');
+                    uid.type = refreshToken.type =  displayName.type =  email.type = idToken.type = accessToken.type = 'hidden';
+
+                    uid.name = 'uid';
+                    refreshToken.name = 'refresh_token';
+                    displayName.name = 'display_name';
+                    email.name = 'email';
+                    idToken.name = 'id_token';
+                    accessToken.name = 'access_token';
+
+                    uid.value = user.uid;
+                    refreshToken.value = user.refreshToken;
+                    displayName.value = user.displayName;
+                    email.value = user.email;
+                    idToken.value = idToken_str;
+                    accessToken.value = credential.accessToken;
+
+
+                    form.appendChild(uid);
+                    form.appendChild(refreshToken);
+                    form.appendChild(displayName);
+                    form.appendChild(email);
+                    form.appendChild(idToken);
+                    form.appendChild(accessToken);
+                    if(!!window.redirect){
+                        var redirect = document.createElement('input');
+                        redirect.type = 'hidden';
+                        redirect.name = 'redirect';
+                        redirect.value = 1;
+                        form.appendChild(redirect);
+                    }
+                    document.body.appendChild(form);
+                    form.submit();
+                }).catch(function(error) {
+                    console.error(error);
+                });
+
+				$('#auth_modal').modal('close');
+		    	return false;
+			}
+		},
+		signInFlow: 'popup',
+	    signInOptions: [
+	      // Leave the lines as is for the providers you want to offer your users.
+	      firebase.auth.GoogleAuthProvider.PROVIDER_ID,
+          firebase.auth.FacebookAuthProvider.PROVIDER_ID,
+          firebase.auth.GithubAuthProvider.PROVIDER_ID
+	    ]
+	  };
+	
+	  // Initialize the FirebaseUI Widget using Firebase.
+	  var ui = new firebaseui.auth.AuthUI(firebase.auth());
+	  // The start method will wait until the DOM is loaded.
+	  ui.start('#firebaseui-auth-container', uiConfig);
+  </script>    
   </head>
   <body>
     <h3>coming soon</h3>
+    <a class="blue-text modal-trigger" href="#auth_modal" onclick="redirect = true">
+	             Sign in
+	          </a>
   </body>
 </html>
