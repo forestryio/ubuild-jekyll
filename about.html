@@ -21,34 +21,48 @@
   <body>
 
 
-<header class="block block-header-2">
-
-  <div class="block-header-2--logo">
-    <a href="/ubuild-jekyll">
-      <img src="/ubuild-jekyll/uploads/2018/09/03/logo1-1.png" alt="Platform.AI">
-    </a>
-  </div>
-
-  <nav class="block-header-2--nav">
-    <ul>
+<nav class="white" role="navigation">
+  <div class="nav-wrapper">
+    <a id="logo-container" href="/" class="brand-logo blue-text">platform.ai</a>
+    <a href="#" data-activates="mobile-demo" class="button-collapse blue-text"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+      
+      <li class="blue-text nav-item "><a href="/">Home</a></li>
+      
+      <li class="blue-text nav-item "><a href="#">Features</a></li>
+      
+      <li class="blue-text nav-item "><a href="https://ctk2h-9a57rt2a.preview.forestry.io/pricing.html">Pricing</a></li>
+      
+      <li class="blue-text nav-item "><a href="https://ctk2h-9a57rt2a.preview.forestry.io/faq.html">FAQ</a></li>
+      
+      <li class="blue-text nav-item "><a href="">Examples</a></li>
+      
+      <li class="blue-text nav-item "><a href="https://ctk2h-9a57rt2a.preview.forestry.io/about.html">About</a></li>
+      
         
-        <li class="nav-item "><a href="/">Home</a></li>
-        
-        <li class="nav-item "><a href="#">Features</a></li>
-        
-        <li class="nav-item "><a href="https://ctk2h-9a57rt2a.preview.forestry.io/pricing.html">Pricing</a></li>
-        
-        <li class="nav-item "><a href="https://ctk2h-9a57rt2a.preview.forestry.io/faq.html">FAQ</a></li>
-        
-        <li class="nav-item "><a href="">Examples</a></li>
-        
-        <li class="nav-item "><a href="https://ctk2h-9a57rt2a.preview.forestry.io/about.html">About</a></li>
+        <li>
+          <a class='blue-text modal-trigger'
+             href='#auth_modal' onclick="redirect = true">
+             Sign in
+          </a>
+        </li>
         
     </ul>
-    <a class="button primary small block-header-2--cta" href="www.platform.ai">Join Beta</a>
-  </nav>
 
-</header>
+    <ul id="mobile-demo" class="side-nav">
+      <li><a href="/pricing">Pricing</a></li>
+      <li><a href="/about">About</a></li>
+      
+        <li>
+          <a class='modal-trigger'
+             href='#auth_modal'>
+             Sign in
+          </a>
+        </li>
+        
+    </ul>
+  </div>
+</nav>
 
 <section class="block block-hero-2" 
 
