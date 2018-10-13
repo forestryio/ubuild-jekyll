@@ -1,0 +1,78 @@
+.dropdown-content li>a, .dropdown-content li>span {
+  color: #2196F3 !important;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.brand-logo {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.intro {
+	background: linear-gradient(150deg,#53f 15%,#05d5ff 70%,#a6ffcb 94%);
+}
+
+.samples {
+	background: #f6f9fc;
+}
+
+nav ul a {
+	font-size: 1.1em;
+}
+
+.dropdown-content li > a > i {
+	margin: 0 5px 0 0;
+}
+
+.carousel {
+	height: 300px !important;
+}
+
+.carousel .indicators .indicator-item {
+	background-color: #80d8ff;
+}
+
+.carousel .indicators .indicator-item.active {
+	background-color: #03a9f4;
+}
+
+.card-panel.large {
+	height: 500px;
+}
+
+#auth_modal {
+	top: 20% !important;
+	width: 25%;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
+	border-bottom: none;
+  	box-shadow: none;
+  	margin: 0px;
+}
+
+.table-of-contents a.active {
+	border-left: 2px solid #03a9f4;
+}
+
+.table-of-contents a:hover {
+	border-left: 1px solid #81d4fa;
+}
+
+blockquote {
+    border-left: 5px solid #2196F3 !important;
+}
+
+.parallax-container {
+	height: 340px;
+}
+
+.overlay {
+	height: 340px;
+}
