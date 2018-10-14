@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.button-collapse').sideNav();
+  $('.button-collapse').sidenav();
     $('.tooltipped').tooltip({delay: 50});
 	$(".dropdown-button").dropdown({
       belowOrigin: true
@@ -17,5 +17,5 @@ $(document).ready(function(){
 	
   if(window.location.search.substring(1).split("=")[0] == 'mode'){
 	$('#auth_modal').modal('open');	
-  }
+  }	
 });
