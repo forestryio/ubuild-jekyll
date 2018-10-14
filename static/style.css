@@ -1,3 +1,7 @@
+.container {
+    width: 80%;
+}
+
 .dropdown-content li>a, .dropdown-content li>span {
   color: #2196F3 !important;
 }
