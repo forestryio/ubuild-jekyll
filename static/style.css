@@ -493,3 +493,8 @@ footer a:hover {
     }
     
 }
+
+#auth_modal {
+	top: 20% !important;
+	width: 25%;
+}

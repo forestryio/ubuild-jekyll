@@ -15,7 +15,7 @@ $(document).ready(function(){
 	
   if(window.location.search.substring(1).split("=")[0] == 'mode'){
 	$('#auth_modal').modal('open');	
-  }	
+  }
 	
   $('#carousel').carousel({
       indicators: true,

@@ -16,14 +16,16 @@ var config = {
 };
 firebase.initializeApp(config);
 
-//firebase
+//FirebaseUI config.
 var uiConfig = {
 callbacks: {
-	signInSuccess: function(user, credential, redirectUrl) {
+        signInSuccessWithAuthResult: function(resp) {
+            var user = resp.user;
+            var credential = resp.credential;
             user.getIdToken(/* forceRefresh */ true).then(function(idToken_str) {
                 var form = document.createElement('form');
                 form.method = 'post';
-                form.action = '/api/v1/auth/signin';
+                form.action = 'https://my.platform.ai/api/v1/auth/signin';
                 var uid = document.createElement('input');
                 var refreshToken = document.createElement('input');
                 var displayName = document.createElement('input');
@@ -31,22 +33,18 @@ callbacks: {
                 var idToken = document.createElement('input');
                 var accessToken = document.createElement('input');
                 uid.type = refreshToken.type =  displayName.type =  email.type = idToken.type = accessToken.type = 'hidden';
-
                 uid.name = 'uid';
                 refreshToken.name = 'refresh_token';
                 displayName.name = 'display_name';
                 email.name = 'email';
                 idToken.name = 'id_token';
                 accessToken.name = 'access_token';
-
                 uid.value = user.uid;
                 refreshToken.value = user.refreshToken;
                 displayName.value = user.displayName;
                 email.value = user.email;
                 idToken.value = idToken_str;
                 accessToken.value = credential.accessToken;
-
-
                 form.appendChild(uid);
                 form.appendChild(refreshToken);
                 form.appendChild(displayName);
@@ -65,7 +63,6 @@ callbacks: {
             }).catch(function(error) {
                 console.error(error);
             });
-
 		$('#auth_modal').modal('close');
     	return false;
 	}
