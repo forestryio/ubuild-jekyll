@@ -49,10 +49,7 @@
                             coding</h5>
                         <a href="" class="btn btn-large waves-effect waves-light bg-red-accent-3 m-r-10">Try it for free</a>
 
-                        <a href="" class="contact-button btn btn-large waves-effect waves-light white black-text">Contact Us</a>
-                    </div>
-                    <div class="center new-play-button">
-                        <a href=""><img src="/static/images/play.png" srcset="/static/images/play@2x.png 2x, img/play@3x.png 3x"></a>
+                        <a class="contact-button btn btn-large waves-effect waves-light white black-text messenger">Contact Us</a>
                     </div>
                 </div>
                 <br><br>
@@ -367,8 +364,8 @@
                 <div class="row">
                     <div class="col s12 m10 l8 offset-m1 offset-l2">
                         <h2>Free for public projects.</h2>
-                        <p>What Github did for open source software, we hope Platform can do for deep learning. We
-                            encourage scientists, researchers, students and hobbyist to use Platform to collaboratively
+                        <p>What Github did for open source software, we hope platform can do for deep learning. We
+                            encourage scientists, researchers, students and hobbyist to use platform to collaboratively
                             solve some of the most challenging vision problems.</p>
                         <a href="" class="ul">SEE SAMPLES</a>
                     </div>
@@ -391,12 +388,7 @@
                         <a href="" class="contact-button btn waves-effect waves-light btn-large white black-text">Contact us</a>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col s12 m12 l8 offset-l2">
-                        <img src="/static/images/clients.jpg" alt="" class="responsive-img">
-                </div>
-                    </div>
-                </div>
+              </div>
         </section>
 
     <footer id="footer" class="grey darken-3 white-text">
@@ -420,7 +412,7 @@
                             <li><a href="">Overview</a></li>
                             <li><a href="">Samples</a></li>
                             <li><a href="">Pricing</a></li>
-                            <li><a href="">Contact</a></li>
+                            <li><a class="messenger">Contact</a></li>
                             <li><a href="">About</a></li>
                             <li><a href="">Blog</a></li>
                             <li>|</li>
@@ -444,5 +436,12 @@
     <script src="static/init.js"></script>
     <script src="static/firebase.js"></script>
     <script src="https://js.stripe.com/v3/"></script>
+    <script>
+      window.intercomSettings = {
+        app_id: "hs65dxzn",
+        custom_launcher_selector: '.messenger'
+      };
+    </script>
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/hs65dxzn';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
   </body>
 </html>
