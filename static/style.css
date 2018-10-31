@@ -53,9 +53,7 @@ a.ul {
 .text-uppercase {
     text-transform: uppercase;
 }
-.bg-call{
-    background-color: #70e3c9;
-}
+
 /*======= NAVBAR =======*/
 nav {
     font-family: 'Aspira-Medium';
@@ -100,22 +98,6 @@ nav ul li.active {
 .dropdown-content li {
     min-height: 0;
     background: transparent!important;
-}
-#modal1 {
-    max-width: 370px;
-}
-.login-modal .btn-block {
-    text-align: left;
-}
-.login-modal .btn-block img {
-    vertical-align: middle;
-    margin-right: 10px;
-}
-.login-modal .btn-block.fb {
-    background: #3b5998;
-}
-.login-modal .btn-block.gh {
-    background: #1b1f23;
 }
 
 /*======= INDEX BANNER =======*/
@@ -273,9 +255,6 @@ nav ul li.active {
     font-size: 18px;
     color: #ff1744;
 }
-.btn {
-    border-radius: 4px;
-}
 
 .d-flex {
     display: -webkit-box;
@@ -285,21 +264,8 @@ nav ul li.active {
     flex-wrap: wrap;
 }
 
-.pricing-col {
-    -webkit-box-flex: 0;
-    flex-grow: 0;
-    flex-shrink: 0;
-    align-self: normal;
-}
-
-.pricing-card {
-    -webkit-box-flex: 0;
-    flex-grow: 0;
-    align-self: normal;
-}
-
 .pricing-card .card-content {
-    padding-bottom: 88px;
+    padding-bottom: 20px;
 }
 
 .pricing-card .btn {
