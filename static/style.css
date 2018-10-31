@@ -71,8 +71,14 @@ nav li a {
     background: transparent!important;
 }
 nav li a:hover {
-    color: #ee261b;
+    color: #ff1744;
 }
+
+nav ul li.active {
+	text-decoration: underline;
+	background-color: #fff;
+}
+
 #dropdown1 {
     width: auto!important;
     left: auto!important;

@@ -17,123 +17,89 @@
     <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.4.1/firebaseui.css" />
   </head>
   <body>
-
-
-<nav class="white" role="navigation">
-  <div class="nav-wrapper">
-    <a id="logo-container" href="/" class="brand-logo blue-text">platform.ai</a>
-    <a href="#" data-activates="mobile-demo" class="button-collapse blue-text"><i class="material-icons">menu</i></a>
-    <ul class="right hide-on-med-and-down">
-      
-      <li class="blue-text nav-item "><a href="/">Home</a></li>
-      
-      <li class="blue-text nav-item "><a href="#">Features</a></li>
-      
-      <li class="blue-text nav-item "><a href="https://ctk2h-9a57rt2a.preview.forestry.io/pricing.html">Pricing</a></li>
-      
-      <li class="blue-text nav-item "><a href="https://ctk2h-9a57rt2a.preview.forestry.io/faq.html">FAQ</a></li>
-      
-      <li class="blue-text nav-item "><a href="">Examples</a></li>
-      
-      <li class="blue-text nav-item "><a href="https://ctk2h-9a57rt2a.preview.forestry.io/about.html">About</a></li>
-      
-        
-        <li>
-          <a class='blue-text modal-trigger'
-             href='#auth_modal' onclick="redirect = true">
-             Sign in
-          </a>
-        </li>
-        
-    </ul>
-
-  </div>
-</nav>
-
-<section class="block block-hero-2" 
-
-style="background-image: url('/uploads/2018/06/21/hero-2-bg.png')"
->
-  <div class="container">
-    <div class="columns">
-      <div class="column text">
-        <h1><span class="light">Platform.ai<strong><br>Deep Learning Anyone Can Use</strong></span></h1>
-        <p>Train an accurate image classification model in minutes with zero coding.</p>
-        
-        <a class="button primary inverted" href="https://github.com/forestryio/ubuild-jekyll">Get started</a>
-        
-      </div>
-      <div class="column media">
-        <img src="/uploads/2018/09/02/insurance.png" alt="Product Shot">
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="block block-one-column-1">
-  <div class="container">
-    <div class="columns">
-      <div class="column">
-        <h3>Unlock the power of Deep Learning</h3>
-        <p>10x Better Functionality / Fraction of the Cost<br></p>
-      </div>        
-    </div>
-  </div>
-</section>
-
-<section class="block block-three-column-1">
-  <div class="container">
-    <div class="columns">
-      <div class="column">
-        <h3>Public</h3>
-        <p>Free    <br><br>Perfect for research and passion projects    <br><br>Unlimited use    <br><br>Data and models are public    <br><br>Prediction rate limit      </p>
-      </div>
-      <div class="column">
-        <h3>Professional</h3>
-        <p>$295 per month <span class="blue-text">+</span><span class="Apple-converted-space">&nbsp;$</span>1.50 / 1000 images       <br><br>Data and models completely private    <br><br>Enhanced capabilities, performance, and availability for professional applications    <br><br>No rate limits    <br></p>
-      </div>
-      <div class="column">
-        <h3>Enterprise</h3>
-        <p>Call     <br><br>Deploy on-premise with no additional effort         <br><br>Run on latest GPUs          <br><br>Meet the security standards of your organization         <br><br>Combine with in-house models             </p>
-      </div>            
-    </div>
-  </div>
-</section>
-
-<div class="block block-cta-bar">
-  <div class="container">
-    <div class="columns">
-        <div class="text">
-          <p>Sign up now and get running in minutes</p>
+    <nav class="white black-text" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="/" class="brand-logo">
+                <img src="/static/images/logo.svg" class="logo">
+            </a>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger black-text"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="/pricing">Pricing</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a class="modal-trigger red-accent-3" href="#auth_modal" onclick="redirect = true">Get Started</a></li>
+            </ul>
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="/pricing">Pricing</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a class="modal-trigger" href="#auth_modal" onclick="redirect = true">Get Started</a></li>
+            </ul>
+            <!-- <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
         </div>
-        <div class="cta">
-          <form action="https://formspree.io/" method="POST">
-            <input type="email" placeholder="your@email.com" class="inverted">
-            <button type="submit" class="button primary inverted">Sign up</button>
-          </form>
+    </nav>
+
+<!-- Add your site or application content here -->
+<section class="">
+    <div class="container">
+        <div class="row center">
+            <div class="col s12">
+                <h1 class="m-b-30">Pricing</h1>
+                <h3 class="sub-title">10 times better with the fraction of the cost</h3>
+                <a href="" class="font18 ul">FAQ</a>
+            </div>
+        </div>
+        <div class="row d-flex pricing">
+            <div class="col s12 m4 d-flex pricing-col">
+                <div class="card d-flex pricing-card">
+                    <div class="card-content">
+                        <h6>PUBLIC</h6>
+                        <h4>Free</h4>
+                        <p>Perfect for research and passion projects</p>
+                        <ul class="checklist m-b-50">
+                            <li><i class="material-icons">check</i> Unlimited use</li>
+                            <li><i class="material-icons">check</i> Data and models are public</li>
+                            <li><i class="material-icons">check</i> Prediction rate limit</li>
+                        </ul>
+                        <a href="" class="btn-color-hover waves-effect waves-light btn btn-block white black-text"><b>Get Started</b></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 d-flex pricing-col">
+                <div class="card d-flex pricing-card">
+                    <div class="card-content">
+                        <h6>PROFESSIONAL</h6>
+                        <h4>$295 <small>/ Month</small></h4>
+                        <p>+ 1.50 / 1000 images ??</p>
+                        <ul class="checklist m-b-50">
+                            <li><i class="material-icons">check</i> Data and models completely private</li>
+                            <li><i class="material-icons">check</i> Enhanced capabilities, performance, and availability
+                                for professional applications</li>
+                            <li><i class="material-icons">check</i> No rate limits</li>
+                        </ul>
+                        <a href="" class="waves-effect waves-light btn btn-block btn-card bg-red-accent-3"><b>Get Started</b></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 d-flex pricing-col">
+                <div class="card d-flex pricing-card">
+                    <div class="card-content">
+                        <h6>ENTERPRISE</h6>
+                        <h4>Call </h4>
+                        <p>Deploy on-premise with no additional effort</p>
+                        <ul class="checklist m-b-50">
+                            <li><i class="material-icons">check</i> Run on latest GPUs</li>
+                            <li><i class="material-icons">check</i>Meet the security standards of your organization</li>
+                            <li><i class="material-icons">check</i> Combine with in-house models</li>
+                            
+                        </ul>
+                        <a href="" class="waves-effect waves-light btn btn-block btn-card bg-call"><b>contact us</b></a>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
-  </div>
-</div>
-
-<section class="block block-footer-2">
-  <div class="container">
-    <div class="columns">
-      <div class="column">
-        <img src="/uploads/2018/09/03/logo1-1.png" width="24" height="auto" alt="Logo">
-      </div>
-      <div class="column">
-        <strong>Platform</strong><br>Join Beta <br>Examples<br>About
-      </div>
-      <div class="column">
-          <strong>Legal</strong> <br>Privacy <br>Terms of Service 
-      </div>
-      <div class="column">
-          <strong>Follow</strong><br>Twitter<br>Press kit<br>Facebook<br>Newsletter<br>Contact us 
-      </div>
-    </div>
-  </div>
 </section>
+
 
     <footer id="footer" class="grey darken-3 white-text">
         <div class="container">

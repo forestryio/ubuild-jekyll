@@ -17,9 +17,6 @@
     <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.4.1/firebaseui.css" />
   </head>
   <body>
-
-
-<!-- Add your site or application content here -->
     <nav class="white black-text" role="navigation">
         <div class="nav-wrapper container">
             <a id="logo-container" href="/" class="brand-logo">
@@ -27,24 +24,20 @@
             </a>
             <a href="#" data-target="nav-mobile" class="sidenav-trigger black-text"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#">Overview</a></li>
-                <li><a href="#">Samples</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">About</a></li>
-                <li><a class="modal-trigger" href="#auth_modal" onclick="redirect = true">Login</a></li>
-                <li><a href="#" class="red-accent-3">Get Started</a></li>
+                <li><a href="/pricing">Pricing</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a class="modal-trigger red-accent-3" href="#auth_modal" onclick="redirect = true">Get Started</a></li>
             </ul>
             <ul id="nav-mobile" class="sidenav">
-                <li><a href="#">Overview</a></li>
-                <li><a href="#">Samples</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">About</a></li>
-                <li><a class="modal-trigger" href='#auth_modal' onclick="redirect = true">Login</a></li>
-                <li><a href="#" class="red-text text-accent-3">Get Started</a></li>
+                <li><a href="/pricing">Pricing</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a class="modal-trigger" href="#auth_modal" onclick="redirect = true">Get Started</a></li>
             </ul>
             <!-- <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
         </div>
     </nav>
+
+<!-- Add your site or application content here -->
     <div id="index-banner" class="parallax-container white-text">
         <div class="section no-pad-bot">
             <div class="container">
