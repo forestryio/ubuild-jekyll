@@ -243,19 +243,7 @@ nav ul li.active {
     left: -7px;
     font-style: normal;
 }
-.three .owl-theme .owl-dots {
-    text-align: left;
-    margin-top: 30px;
-}
-.three .owl-theme .owl-dots .owl-dot span {
-    background-color: #9e9e9e;
-}
-.three .owl-theme .owl-dots .owl-dot.active span {
-    background-color: #ff1744;
-}
-.three .owl-theme .owl-dots .owl-dot:first-child span {
-    margin-left: 0;
-}
+
 
 /*======= HOME SECTION FOUR =======*/
 .four {

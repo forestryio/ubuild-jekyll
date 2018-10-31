@@ -543,25 +543,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (min-width: 600px) {
     .Hero {
 
@@ -1085,8 +1066,6 @@
 }
 
 
-
-
 .button-icon {
 
     position: absolute;
@@ -1248,8 +1227,6 @@
 .new-play-button {
     position: relative;
     margin: auto;
-
-
 }
 
 
@@ -1306,22 +1283,22 @@
 
 .btn-samples:hover
 {
-    background-color: #1de9b6!important;
+    background-color: #1de9b6 !important;
     color: black;
 
 }
 a.ul:hover , a.watch-jeremys-ted-t:hover , a.View-career-opportun:hover
 {
-    color:#aa00ff!important;
+    color:#aa00ff !important;
 }
 .contact-button:hover
 {
-    background-color:#424242!important;
-    color: white!important
+    background-color:#424242 !important;
+    color: white !important
 }
 footer .m-t-60 li a:hover
 {
-    color: #ffc107!important
+    color: #ffc107 !important
 }
 
 .collapsible-header
@@ -1365,8 +1342,6 @@ footer .m-t-60 li a:hover
 {
     font-size:18px!important;
 }
-
-
 
 
 @media only screen and (min-width:1100px)
