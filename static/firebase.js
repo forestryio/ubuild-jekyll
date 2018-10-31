@@ -1,12 +1,12 @@
 // Initialize Firebase
 var config = {
 
-    apiKey: "AIzaSyCw7szyT5W-DAvu8BzP3sFyG_UABHu7DtA",
-    authDomain: "platform-ai-dev.firebaseapp.com",
-    databaseURL: "https://platform-ai-dev.firebaseio.com",
-    projectId: "platform-ai-dev",
-    storageBucket: "platform-ai-dev.appspot.com",
-    messagingSenderId: "314473505880",
+    apiKey: "AIzaSyAfpPifQCZHD9ISaUkoO5M6c8cxnDXpCx4", // "AIzaSyDF3SG4UGhlrtfHckC5DucOzxj2Jk7Kl6w",
+    authDomain: "platform-ai-prod.firebaseapp.com",
+    databaseURL: "https://platform-ai-prod.firebaseio.com",
+    projectId: "platform-ai-prod",
+    storageBucket: "platform-ai-prod.appspot.com",
+    messagingSenderId: "791956494741", // project number
     scopes: [
         "email",
         "profile",
