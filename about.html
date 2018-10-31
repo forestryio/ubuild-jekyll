@@ -9,7 +9,6 @@
     <meta name="author" content="Arshak Navruzyan">
     <meta name="description" content="Platform allows domain experts to produce high-quality labels for AI applications in minutes in a visual, interactive fashion.   It combines the latest research in human perception, active learning, transfer from pre-trained nets,  and noise-resilient training so that the labeler's time is used in the most productive way and the model learns from every  aspect of the human interaction.">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
     <link href="static/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase-app.js"></script>
@@ -128,35 +127,42 @@ style="background-image: url('/uploads/2018/06/21/hero-2-bg.png')"
   </div>
 </section>
 
-    <footer class="page-footer blue-grey darken-4">
-      <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <h5 class="white-text brand-logo">platform.ai</h5>
-          </div>
-          <div class="col l3 s12">
-            <h5 class="white-text">Legal</h5>
-            <ul>
-              <li><a class="white-text" href="#!">Terms of Service</a></li>
-              <li><a class="white-text" href="#!">Privacy</a></li>
-            </ul>
-          </div>
-          <div class="col l3 s12">
-            <h5 class="white-text">Connect</h5>
-            <ul>
-              <li><a class="white-text" href="#!">Twitter</a></li>
-              <li><a class="white-text" href="/contact">Contact us</a></li>
-              <li><a class="white-text" href="#!">Newsletter</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="footer-copyright">
+    <footer id="footer" class="grey darken-3 white-text">
         <div class="container">
-           &copy; 2018 Platform.AI inc.  
-        </div>
-      </div>
+            <div class="row">
+                <div class="col m6">
+                    <img src="img/logo-wt.png" srcset="img/logo-wt@2x.png 2x, img/logo-wt@3x.png 3x">
+            </div>
+                    <div class="col m6">
+                        <ul class="m-t-0 social right">
+                            <li><a href=""><img src="img/sm-icon-tw.svg"></a></li>
+                            <li><a href=""><img src="img/sm-icon-yt.svg"></a></li>
+                            <li><a href=""><img src="img/sm-icon-fb.svg"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        <hr>
+                        <ul class="m-t-60 m-b-40">
+                            <li><a href="">Overview</a></li>
+                            <li><a href="">Samples</a></li>
+                            <li><a href="">Pricing</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li>|</li>
+                            <li><a href="">Terms of Service</a></li>
+                            <li><a href="">Privacy</a></li>
+                        </ul>
+                        <div class="copyright">
+                            <p>© 2018 platform.ai inc.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </footer>
+
     <div id="auth_modal" class="modal">
       <div class="modal-content" id="firebaseui-auth-container"></div>
     </div>

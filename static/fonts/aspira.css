@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Aspira-Black';
+    src: url('Aspira-Black.woff2') format('woff2'),
+        url('Aspira-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aspira';
+    src: url('Aspira-Regular.woff2') format('woff2'),
+        url('Aspira-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aspira-Heavy';
+    src: url('Aspira-Heavy.woff2') format('woff2'),
+        url('Aspira-Heavy.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aspira-Medium';
+    src: url('Aspira-Medium.woff2') format('woff2'),
+        url('Aspira-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
