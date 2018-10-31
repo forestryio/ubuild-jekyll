@@ -215,7 +215,7 @@ nav li a:hover {
 
 /*======= HOME SECTION THREE =======*/
 #testimonials {
-    background: url(img/mesh.png) no-repeat center right;
+    background: url(/static/images/mesh.svg) no-repeat center right;
     background-size: 20% auto;
     padding: 140px 0;
     font-size: 18px;
