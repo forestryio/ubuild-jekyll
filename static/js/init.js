@@ -1,4 +1,10 @@
 $(document).ready(function(){
+
+	function autoplay() {
+		$('#quote-carousel').carousel('next');
+		 setTimeout(autoplay, 4500);
+	}
+	
   $('.button-collapse').sidenav();
     $('.tooltipped').tooltip({delay: 50});
 	$(".dropdown-button").dropdown({
@@ -17,18 +23,20 @@ $(document).ready(function(){
 	$('#auth_modal').modal('open');	
   }
 	
-  $('#carousel').carousel({
+	$('.collapsible').collapsible();
+	
+  $('#quote-carousel').carousel({
       indicators: true,
       dist: 0,
       shift: 0,
       fullWidth: true,
-  });
+  }, setTimeout(autoplay, 4500));
 	
 });
 
 
 $(document).ready(function() {
-    var car = $('#carouselnew').carousel({
+    var car = $('.carouselnew').carousel({
         dist: 0,
         shift: 0,
         padding: 20,
@@ -60,17 +68,17 @@ if (window.matchMedia('(max-width: 768px)').matches)
 {
     
      // move Next carousel
-     $('#carouselnew .moveNextCarousel').click(function(e) {
+     $('.carouselnew .moveNextCarousel').click(function(e) {
         e.preventDefault();
         e.stopPropagation();
-        $('#carouselnew').carousel('next',1);
+        $('.carouselnew').carousel('next',1);
      });
 
       // move prev carousel
-      $('#carouselnew .movePrevCarousel').click(function(e) {
+      $('.carouselnew .movePrevCarousel').click(function(e) {
         e.preventDefault();
         e.stopPropagation();
-        $('#carouselnew').carousel('prev',1);
+        $('.carouselnew').carousel('prev',1);
     });
 
 }
@@ -78,17 +86,17 @@ if (window.matchMedia('(max-width: 768px)').matches)
 else if (window.matchMedia('(min-width: 769px)').matches)
 {
       // move Next carousel
-      $('#carouselnew .moveNextCarousel').click(function(e) {
+      $('.carouselnew .moveNextCarousel').click(function(e) {
         e.preventDefault();
         e.stopPropagation();
-        $('#carouselnew').carousel('next',3);
+        $('.carouselnew').carousel('next',3);
      });
 
       // move prev carousel
-      $('#carouselnew .movePrevCarousel').click(function(e) {
+      $('.carouselnew .movePrevCarousel').click(function(e) {
         e.preventDefault();
         e.stopPropagation();
-        $('#carouselnew').carousel('prev',3);
+        $('.carouselnew').carousel('prev',3);
     });
 
 }

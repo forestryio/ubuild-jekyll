@@ -125,7 +125,7 @@ font-size: 18px;
 }
 /*======= HOME SECTION TWO =======*/
 .two, .four, .five {
-    padding: 140px 0;
+    padding: 100px 0;
     overflow: hidden;
 }
 .two .card {
@@ -147,17 +147,13 @@ font-size: 18px;
     background-color: #ff1744;
 }
 
-.Rectangle {
+.rectangle {
     width: 60px;
     height: 5px;
 }
 
 .padding-o {
     padding: 0 !important;
-}
-
-#materialize-slider {
-    background: url(/static/images/mesh.svg) no-repeat right/contain;
 }
 
 .carousel.carousel-slider {
@@ -168,10 +164,11 @@ font-size: 18px;
     position: relative;
 }
 
-#carousel.carousel.carousel-slider .carousel-item {
+#quote-carousel.carousel.carousel-slider .carousel-item {
     background-color: #fff;
     min-height: 1px;
 }
+
 
 .carousel.carousel-slider .carousel-fixed-item {
     top: calc(50% - 20px);
@@ -190,21 +187,38 @@ font-size: 18px;
     display: none;
 }
 
-#carouselnew:hover .leftbutton,
-#carouselnew:hover .rightbutton {
+.carouselnew:hover .leftbutton,
+.carouselnew:hover .rightbutton {
     display: block;
 }
 /*======= HOME SECTION THREE =======*/
+.testimonial-content {
+	margin-top: 88px;
+	margin-bottom: 170px;
+}
 #testimonials {
     background: url(/static/images/mesh.svg) no-repeat center right;
     background-size: 20% auto;
     padding: 140px 0;
     font-size: 18px;
 }
-#testimonials blockquote {
+
+blockquote {
     border: none;
     padding: 0;
     font-style: italic;
+}
+
+blockquote:before {
+    content: "\201C";
+    display: block;
+    font-size: 112px;
+    height: 56px;
+    line-height: 112px;
+    position: relative;
+    color: #ff1744;
+    left: -7px;
+    font-style: normal;
 }
 
 /*======= INNER PAGE =======*/
@@ -423,7 +437,7 @@ footer a:hover {
     padding-top: 70px
 }
 @media only screen and (min-width:800px) {
-    #carouselnew .carousel-item {
+    .carouselnew .carousel-item {
         width: 290px !important;
     }
 
@@ -438,7 +452,7 @@ footer a:hover {
 }
 
 @media only screen and (max-width:767px) {
-    #carouselnew .carousel-item {
+    .carouselnew .carousel-item {
         width: 100% !important
     }
     .iconplaybuttonleft,
@@ -454,7 +468,7 @@ footer a:hover {
     .about-video {
         height: 300px;
     }
-    #materialize-slider {
+    #testimonials-slider {
         background: none;
     }
 }
