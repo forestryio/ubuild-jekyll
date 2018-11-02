@@ -10,7 +10,7 @@
     <meta name="description" content="Platform allows domain experts to produce high-quality labels for AI applications in minutes in a visual, interactive fashion.   It combines the latest research in human perception, active learning, transfer from pre-trained nets,  and noise-resilient training so that the labeler's time is used in the most productive way and the model learns from every  aspect of the human interaction.">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
-    <link href="static/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="/static/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase-auth.js"></script>
     <script src="https://cdn.firebase.com/libs/firebaseui/3.4.1/firebaseui.js"></script>
@@ -24,9 +24,9 @@
             </a>
             <a href="#" data-target="nav-mobile" class="sidenav-trigger black-text"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="/pricing">Pricing</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a class="modal-trigger red-accent-3" href="#auth_modal" onclick="redirect = true">Get Started</a></li>
+                <li><a class="black-text transparent" href="/pricing">Pricing</a></li>
+                <li><a class="black-text transparent" href="/about">About</a></li>
+                <li><a class="modal-trigger transparent red-text accent-3" href="#auth_modal" onclick="redirect = true">Get Started</a></li>
             </ul>
             <ul id="nav-mobile" class="sidenav">
                 <li><a href="/pricing">Pricing</a></li>
@@ -82,8 +82,9 @@
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="static/init.js"></script>
-    <script src="static/firebase.js"></script>
+    <script src="static/js/init.js"></script>
+    <script src="static/js/firebase-config.js"></script>
+    <script src="static/js/firebase.js"></script>
     <script src="https://js.stripe.com/v3/"></script>
     <script>
       window.intercomSettings = {

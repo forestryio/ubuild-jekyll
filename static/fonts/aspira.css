@@ -30,3 +30,11 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Aspira-Demi';
+    src: url('Aspira-Demi.woff') format('woff'),
+     url('Aspira-Demi.otf') format('otf');
+     font-weight: 600;
+    font-style: normal;
+}
+
