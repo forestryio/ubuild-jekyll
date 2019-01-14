@@ -18,6 +18,11 @@ sections:
   match: "*.md"
   exclude: "*README.md"
   new_doc_ext: md
+- type: directory
+  path: _data
+  label: Data
+  create: none
+  match: "**/*.{json,yaml,yml}"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
