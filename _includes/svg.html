@@ -1,5 +1,0 @@
-{% if include.id %}
-<svg{% if include.class %} class="{{ include.class }}"{% endif %}{% if include.width %} width="{{ include.width }}"{% endif %}{% if include.height %} height="{{ include.height }}"{% endif %}>
-  <use xlink:href="{{ "svg/sprite.symbol.svg" | relative_url }}#{{ include.id }}" />
-</svg>
-{% endif %}
