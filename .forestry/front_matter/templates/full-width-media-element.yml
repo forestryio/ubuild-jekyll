@@ -1,7 +1,6 @@
 ---
 label: full-width-media-element
 hide_body: false
-is_partial: true
 fields:
 - type: text
   hidden: true

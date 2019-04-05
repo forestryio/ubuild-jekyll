@@ -1,7 +1,6 @@
 ---
 label: 4-column-footer
 hide_body: false
-is_partial: true
 fields:
 - type: text
   hidden: true
