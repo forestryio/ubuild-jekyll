@@ -1,0 +1,7 @@
+# Staging server config 
+# This config is only used for the development server
+# No settings provided here will affect production builds
+
+baseurl: ""
+host: 0.0.0.0
+port: 8080
