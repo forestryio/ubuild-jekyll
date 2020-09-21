@@ -14,6 +14,9 @@ fields:
     wysiwyg: true
     schema:
       format: html
+- type: text
+  label: slug
+  name: slug
 - type: textarea
   name: content
   label: Content

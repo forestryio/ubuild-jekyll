@@ -1,4 +1,4 @@
-<section id="features" class="block block-feature-2">
+<section id="{{ section.slug | slugify }}" class="block block-feature-2">
   <div class="container">
     <div class="columns">
       <div class="column media">
@@ -7,7 +7,7 @@
       <div class="column text">
           <h2><span class="light">{{ section.headline }}</span></h2>
           <p>{{ section.content }}</p>
-      </div>  
+      </div>
     </div>
   </div>
 </section>

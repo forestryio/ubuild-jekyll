@@ -5,6 +5,9 @@ fields:
 - type: text
   name: headline
   label: Headline
+- type: text
+  label: slug
+  name: slug
 - type: textarea
   name: content
   label: Content
