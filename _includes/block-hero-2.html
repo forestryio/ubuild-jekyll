@@ -1,4 +1,4 @@
-<section class="block block-hero-2" 
+<section class="block block-hero-2"
 {% if section.background_image %}
 style="background-image: url('{{ section.background_image | relative_url }}')"
 {% endif %}>
@@ -12,7 +12,7 @@ style="background-image: url('{{ section.background_image | relative_url }}')"
         {% endif %}
       </div>
       <div class="column media">
-        <img src="{{ section.image.image | relative_url }}" alt="{{ section.image.alt_text }}">
+        <img src="{{ section.image.image | relative_url }}" alt="{{ section.image.alt_text }}" loading="lazy">
       </div>
     </div>
   </div>

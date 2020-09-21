@@ -2,7 +2,7 @@
   <div class="container">
     <div class="columns">
       <div class="column media">
-          <img src="{{ section.media.image | relative_url }}" alt="{{ section.media.alt_text }}">
+          <img src="{{ section.media.image | relative_url }}" alt="{{ section.media.alt_text }}" loading="lazy">
       </div>
       <div class="column text">
           <h2><span class="light">{{ section.headline }}</span></h2>

@@ -84,5 +84,3 @@ page_sections:
     block: footer-1
     content: Made with ❤︎ in Canada
 ---
-
-foo bar
