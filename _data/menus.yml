@@ -1,6 +1,9 @@
----
 main:
-- identifier: home
-  url: "/"
-  weight: 1
-  title: Home
+  - identifier: home
+    url: /
+    weight: 1
+    title: Home
+  - identifier: lorem-ipsum
+    url: lorem-ipsum
+    weight: 0
+    title: lorem-ipsum
