@@ -1,4 +1,4 @@
-title: uBuild Design Blocks
+title:Jamie's collections
 author: Forestry.io
 email: support@forestry.io
 description: >-
@@ -16,6 +16,6 @@ defaults:
       layout: "default" # this ensures all content renders with layouts/default.html
 
 plugins:
-  - jekyll-feed
-  - jekyll-menus
+  - jamie-feed
+  - jamie-menus
 
