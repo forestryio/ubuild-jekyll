@@ -16,6 +16,6 @@ defaults:
       layout: "default" # this ensures all content renders with layouts/default.html
 
 plugins:
-  - jamie-feed
-  - jamie-menus
+  - jekyll-feed
+  - jekyll-menus
 
